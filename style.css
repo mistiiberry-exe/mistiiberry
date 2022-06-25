@@ -1,0 +1,433 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.header{
+	min-height: 125vh;
+	width: 100%;
+	background: rgb(207, 144, 243);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.row{
+	display: flex;
+	font-size: 16px;
+    background-color: white;
+	align-items: center;
+}
+.col{
+	padding-left: 20px ;
+}
+h2{
+    color:rgb(119, 76, 145);
+    font-size: 20px;
+}
+p{
+    color:rgba(45, 28, 56, 0.527);
+    font-size: 15px;
+}
+.contact{
+	height: 30px;
+	width: auto;
+    display: flex;
+    justify-content: space-between;
+	background: rgb(45, 28, 56);
+}
+.navlinks{
+	text-align: left;
+}
+.navlinks a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+    font-size: 13px;
+    padding-left: 20px;
+    transition: 1s;
+}
+.navlinks a:hover{
+    color:yellow;
+}
+.admin{
+	text-align: right;
+}
+.admin a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+    font-size: 13px;
+    padding-right: 20px;
+}
+.scroll{
+    background-color: yellow;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.scroll a{
+    color:red;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 150px;
+}
+.admission{
+    margin: 20px;
+    width:auto;
+	position: relative;
+	text-align: left;
+	color: white;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.57);
+}
+h3{
+    color: yellow;
+    text-align: left;
+}
+h4{
+    color:white;
+    margin: 20px;
+    font-size: 40px;
+    padding-left: 20px;
+    background:rgba(0, 0, 0, 0.57);
+	display: block;
+}
+.message{
+    background-color: rgba(0, 0, 0, 0.57);
+    margin: 20px;
+}
+.message h3{
+    padding: 20px 0px 0px 40px;
+}
+.principal{
+    display: flex;
+    margin: 20px;
+    width:auto;
+	text-align: justify;
+	color: white;
+    justify-content: space-between;
+}
+.image{
+	margin: 20px ;
+
+}
+.names{
+    color: palevioletred;
+    font-weight: bold;
+    text-align: right;
+}
+.academics{
+    margin-top: 10px;
+	display: flex;
+	font-size: 16px;
+    justify-content: center;
+}
+.academics a{
+    color: purple;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+.academics a:hover{
+    color: rgb(207, 144, 243);
+}
+.course{
+	margin: 20px ;
+    border-radius: 10px;
+    background-color: rgb(234, 197, 255);
+    padding: 20px;
+    transition: 0.5s;
+}
+.course:hover{
+    box-shadow: 0px 0px 10px 10px rgb(45, 28, 56);
+}
+h5{
+    color: rgb(45, 28, 56);
+    font-size: 20px;
+}
+p2{
+    color:black;
+    font-size: 15px;
+}
+.others{
+    margin-top: 10px;
+	display: flex;
+    justify-content: space-between;
+	font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.782);
+}
+.details{
+	margin: 20px ;
+    padding: 20px;
+    transition: 0.5s;
+
+}
+.others a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 20px;
+    font-style: italic;
+}
+.others a:hover{
+    color: rgb(243, 173, 252);
+}
+h6{
+    color: rgb(251, 255, 0);
+    font-size: 18px;
+}
+p3{
+    color:rgba(255, 255, 255, 0.624);
+    font-size: 15px;
+}
+.mal{
+    padding: 20px;
+    background-color: black;
+    text-align: right;
+}
+h7{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+h7:hover{
+    color: tomato;
+}
+.add{
+    padding: 20px;
+    font-size: 18px;
+}
+p4{
+    color:red;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*admin page*/
+.login-form{
+    width: 50%;
+    height: 10;
+	position: absolute;
+    top: 25%;
+	left: 25%;
+	text-align: center;
+	font-size: 30px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px 5px rgb(45, 28, 56);
+}
+.login-form h2{
+    text-align: center;
+    background-color: rgb(186, 186, 228);
+    padding: 12px;
+}
+.login-form form{
+    padding: 50px 50px;
+}
+.input-field input{
+    background-color: rgba(132, 86, 138, 0.22);
+    padding: 10px;
+    border: none;
+    width: 100%;
+    padding-left: 15px;
+}
+.login-form form button{
+    width: 608px;
+    background-color: rgb(234, 197, 255);
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin: 15px 0;
+    transition: background-color 0.3s;
+}
+.login-form form button:hover{
+    background-color: #41b6e6;
+}
+.extra{
+    font-size: 14px;
+    text-decoration: none;
+}
+/*ug pg details*/
+.more{
+	display: flex;
+	position: relative;
+}
+.sidebar{
+    margin: 10px;
+    width:auto;
+    height: 300px;
+	text-align: left;
+	color: rgb(255, 255, 255);
+    padding: 30px;
+    background-color: rgb(234, 197, 255);
+}
+.sidebar h3{
+    text-align: center;
+    color: rgb(75, 47, 94);
+    font-size: 18px;
+}
+.sidebar a{
+    text-decoration: none;
+	color: palevioletred;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+    transition: 0.5s;
+}
+.sidebar a:hover{
+    color: rgb(207, 144, 243);
+}
+.ugpg{
+    margin: 10px;
+    width:100%;
+    height: auto;
+	text-align: left;
+	color: white;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.57);
+}
+.ugpg a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px;
+    padding-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.ugpg a:hover{
+    color: rgb(207, 144, 243);
+}
+/*application form*/
+.applicationform{
+    margin-left: 30px;
+    white-space: unset;
+    text-align:inherit;
+}
+.row1{
+	display: flex;
+	font-size: 16px;
+    background-color: white;
+	align-items: center;
+}
+.col1{
+    padding-left: 20%;
+    padding-right: 20%
+    
+}
+.coln{
+    padding-left: 20px;
+    
+}
+h8{
+    color:rgb(24, 45, 233); 
+    font-size: 25px;
+}
+p5{
+    color:rgba(39, 17, 233, 0.527);
+    font-size: 15px;
+    padding-top: 3%;
+    word-spacing: 5px;
+    justify-content: center;
+}
+.submit{
+    text-align: center;
+    height: 50px;
+    font-size: 30%;
+    
+}
+#name{
+    text-align: center;
+    height: 15px; 
+    width:20%;
+    padding: 5px;
+    border:1px solid rgb(15, 15, 15);
+    font-family:serif ;
+    font-size:15px;  
+}
+#names{
+    text-align: center;
+    height: 15%; 
+    width: 20%;
+    padding: 5px;
+    font-family:serif ;
+    font-size:15px;
+}
+.number{
+    padding: 5px;
+    height:15%;
+    width:20%;
+    border:1px solid rgb(15, 15, 15);
+    font-family:serif ;
+    font-size:15px;   
+}
+.num{
+    padding: 5px;
+    height:15%;
+    width:20%;
+    border:1px solid whitesmoke;
+    color:rgb(10, 10, 10);
+    border:1px solid rgb(15, 15, 15);
+}
+.check{
+    font-family: serif;
+    font-size: 18px;
+}
+.sub{
+    align-items: center;
+    height: 100%;
+}
+.cast{
+    border:1px solid rgb(15, 15, 15);
+}
+#address{
+    height: 30px;
+    width:250px;
+    padding:7px 0px;
+    font-size: 15px;
+    color:rgb(10, 10, 10);
+    border:1px solid rgb(15, 15, 15);
+}
+#text{
+    width:30%;
+    padding:7px 0px;
+    border-radius:5px;
+    border:1px solid rgb(8, 8, 8);
+    outline:0;
+    font-size: 18px;
+    background: wheat;
+    color:black;
+}
+/*application buttons*/
+.buttons{
+    text-align: center;
+    height: 50px;
+    font-size: 30%;
+    padding: 20px;
+    justify-content: space-between;
+}
+.buttons a{
+    background-color: grey;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 14px 12px;
+    transition: 0.5s;
+}
+.buttons a:hover{
+    background-color: rgb(186, 185, 185);
+}
+.apph{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
