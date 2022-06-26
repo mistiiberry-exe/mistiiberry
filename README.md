@@ -1,3 +1,7 @@
+# Preview
+
+![image](https://user-images.githubusercontent.com/104710227/175800755-91c7c137-d176-4823-84fa-826a2a5ed40a.png)
+
 # Technologies used
 
 Built in PHP, HTML, CSS, JavaScript & MySQL
