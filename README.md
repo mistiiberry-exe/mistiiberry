@@ -21,4 +21,4 @@ Dummy SQL Databse: .sql file included.
 
 # Test Credentials:
 
-Admin ID: admin | Password: admin
+Admin ID: admin | Password: 12345678
